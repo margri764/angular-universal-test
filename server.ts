@@ -13,9 +13,9 @@ export function app(): express.Express {
   const server = express();
 
   //OJO!!!!!!! cambie esto*********************************************************************************
-  const distFolder = join(process.cwd(), 'dist/angular-universal-test/browser');
+  // const distFolder = join(process.cwd(), 'dist/angular-universal-test/browser');
   
-  // const distFolder = join(process.cwd(), 'browser');
+  const distFolder = join(process.cwd(), 'browser');
 
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
