@@ -1,0 +1,72 @@
+
+
+mat-toolbar{
+    height: 20vw;
+}
+
+mat-icon{
+    font-size: 3vw;
+    transition: all 0.3s ease 0s;
+}
+
+mat-icon:hover{
+    color: rgb(199, 199, 199); 
+}
+
+button{
+    margin-left: 3vw;
+}
+
+mat-toolbar{   
+     color: black;
+     overflow: hidden;
+}
+
+@media only screen and (max-width: 573px){  
+
+
+ mat-icon{
+     font-size: 8vw;
+ }
+
+ 
+
+}
+
+@media only screen and (min-width: 574px)and (max-width: 767px){
+    
+    mat-toolbar{
+        height: 9vw;
+    }
+
+    mat-icon{
+        font-size: 4vw;
+    }
+   
+
+}
+
+@media only screen and (min-width: 768px)and (max-width: 1280px) {
+    
+      
+    mat-toolbar{
+        height: 10vw;
+    }
+
+    mat-icon{
+        font-size: 3.5vw;
+    }
+   
+
+}
+@media only screen and (min-width: 1281px)  {
+    
+ mat-toolbar{
+     height: 8vw;
+ }
+ 
+
+
+}
+
+
